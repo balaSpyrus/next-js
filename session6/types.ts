@@ -5,6 +5,9 @@ export type PostType = {
     imageUrl: string;
     createdAt?: string;
     userFirstName?: string;
+    userLasttName?: string;
+    likes?: number;
+    isLiked?: boolean;
     content: string;
 }
 
